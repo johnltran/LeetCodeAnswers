@@ -1,5 +1,9 @@
-// Problem 1: Two Sum 
+/*
+  Problem 1: Two Sum
 
+  Time: O(N)
+  Space: O(N)
+*/
 public int[] twoSum(int[] nums, int target) {
   Map<Integer, Integer> cache = new HashMap<>();
 
