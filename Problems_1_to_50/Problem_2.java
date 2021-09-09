@@ -1,4 +1,9 @@
-// Problem 2: Add Two Numbers 
+/*
+  Problem 2: Add Two Numbers
+
+  Time: O(max(N, M))
+  Space: O(1)
+*/
 
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
   if (l1 == null) return l2;
