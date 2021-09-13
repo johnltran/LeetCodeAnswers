@@ -16,6 +16,5 @@ public int reverse(int x) {
     result = temp;
     x /= 10;
   }
-
   return result;
 }
